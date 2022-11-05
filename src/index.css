@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*   {
+       margin:0;
+       font-family:"Sofia";
+       color :darkslategrey;
+       
+    }
+    html, body {
+      height: 100%;
+  }
+  
+  html {
+      display: table;
+      margin: auto;
+  }
+  
+  body {
+    background-color: rgb(226, 231, 231);
+      display: table-cell;
+      vertical-align: middle;
+  }
+
+.navbar{
+padding:20px;
+display: flex;
+align-items: center;
+max-width: 600px;
+margin: 0px;
+border-bottom: 1px solid #f2f2f2;
+background-color: rgb(152, 198, 250);
+}
+
+.navbar h1{
+  color:rgb(31, 42, 145);
+  margin-left: 15px;
+}
+
+.navbar .links{
+margin-left: auto;
+
+}
+
+.navbar a{
+margin-left: 0px;
+text-decoration: none;
+padding: 6px;
+
+}
+.navbar a:hover{
+  color:rgb(80, 20, 220)
+}
+.content{
+max-width: 600px;
+margin-left:15px ;
+margin-top: 20px;
+
+}
+.newblog{
+  color:#f2f2f2;
+  background-Color:#f1356d;
+  border-Radius:8px;
+}
+
+
+.blog-preview {
+  padding:10px 16px;
+ margin: 20px 0;
+  border-bottom:1px #631616
+}
+.blog-preview a :hover{
+box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2{
+font-size:20px;
+color:#3421e4;
+margin-bottom: 4px;}
+.blog-preview a{
+  text-decoration:none ;
+}
+.blog-details h2{
+  font-size: 20px;
+  color:rgb(33, 20, 220);
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.Create{
+  text-align:left;
+  display: block;
+}
+.Create h2{
+font-size: 20px;
+color: #5335d8;
+margin-bottom: 30px;
+}
+.Create input ,.Create textarea, .Create select{
+width:100%;
+padding:6px 10px;
+margin: 10px 0;
+border:1px solid #ddd;
+box-sizing: border-box;
+display: block;
+}
+.Create button{
+background: #f1356d;
+color: #ddd;
+border:0;
+padding: 8px;
+border-radius: 8px;
+cursor: pointer;
+
+}
+
+.blog-details button{
+  margin-left: 500px;
+background-color: #f1356d;
+color: #ddd;
+border: 0;
+padding: 8px;
+border-radius: 8px;
+cursor: pointer;
+
+}
+
+.notfound{
+margin-left: 200px;
+color: rgb(238, 2, 2);
+padding: 20px;
+}
+.notfound a{
+color: blue;
+margin-left: 200px;
+}
